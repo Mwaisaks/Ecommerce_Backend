@@ -8,6 +8,8 @@ import java.util.Date;
 
 @Entity
 @Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class Product {
@@ -30,8 +32,11 @@ public class Product {
     private String imageType;
 
     @Lob
-    private byte[] imageData;
+    private byte[] imageDate;
+}
 
+
+    /*
     public int getId() {
         return id;
     }
@@ -121,10 +126,12 @@ public class Product {
     }
 
     public byte[] getImageData() {
-        return imageData;
+        return imageDate;
     }
 
     public void setImageData(byte[] imageData) {
-        this.imageData = imageData;
+        this.imageDate = imageDate;
     }
 }
+
+*/
